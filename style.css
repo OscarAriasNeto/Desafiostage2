@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: #2f2e41;
+
+  color: #ffffff;
+}
+
+
+
+ul {
+  list-style: none;
+  display: flex;
+  font-size: 14px;
+  gap: 64px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+main,
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 101px;
+  margin-right: 89px;
+  margin-top: 86px;
+  gap: 82px;
+}
+
+main {
+  text-align: center;
+}
+
+main p {
+  font-size: 14px;
+  gap: 77px;
+  margin-top: 59px;
+  font-size: 16px;
+  color: #C2C2C2;
+
+  font-family: 'open sans';
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+span {
+  color: #00bfa6;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'JetBrains Mono', monospace;
+}
+.line-above {
+  width: 568px;
+  height: 4px;
+  background-color: #00BFA6;
+  position: absolute;
+  top: -4px;
+}
+
+
+
+.cadiado {
+  
+  position: absolute;
+  bottom: 20px;
+  left:20px;
+}
+
+
